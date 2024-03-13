@@ -67,15 +67,15 @@ Creates a new configuration proposal transaction for a specific action.
 ### Syntax
 
 ```bash
-config_transaction_create --rpc_url <RPC_URL> --program_id <PROGRAM_ID> --keypair <KEYPAIR_PATH> --multisig_pubkey <MULTISIG_PUBLIC_KEY> --action <ACTION> [--memo <MEMO>]
+config_transaction_create --rpc-url <RPC_URL> --program-id <PROGRAM_ID> --keypair <KEYPAIR_PATH> --multisig-pubkey <MULTISIG_PUBLIC_KEY> --action <ACTION> [--memo <MEMO>]
 ```
 
 ### Parameters
 
-- `--rpc_url <RPC_URL>`: (Optional) The URL of the Solana RPC endpoint. Defaults to mainnet if not specified.
-- `--program_id <PROGRAM_ID>`: (Optional) The ID of the multisig program. Defaults to a standard ID if not specified.
+- `--rpc-url <RPC_URL>`: (Optional) The URL of the Solana RPC endpoint. Defaults to mainnet if not specified.
+- `--program-id <PROGRAM_ID>`: (Optional) The ID of the multisig program. Defaults to a standard ID if not specified.
 - `--keypair <KEYPAIR_PATH>`: Path to your keypair file.
-- `--multisig_pubkey <MULTISIG_PUBLIC_KEY>`: The public key of the multisig account.
+- `--multisig-pubkey <MULTISIG_PUBLIC_KEY>`: The public key of the multisig account.
 - `--action <ACTION>`: The action to execute. Format depends on the action type.
 - `--memo <MEMO>`: (Optional) A memo for the transaction.
 
